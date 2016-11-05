@@ -1,0 +1,16 @@
+{application, lijst,
+ [{description, "De lijst applicatie"},
+  {vsn, "0.1.0"},
+  {registered, [lijst]},
+  {mod, { lijst_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
