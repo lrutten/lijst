@@ -10,7 +10,7 @@ start() ->
     {ok, Pid}.
 
 stop() ->
-    teller ! {stop}.
+    lijst ! {stop}.
 
 init() ->
     loop([]),
